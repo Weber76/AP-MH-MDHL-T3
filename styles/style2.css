@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body,
+h6,
+figure {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  display: block;
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.titulo-banner {
+  display: block;
+  padding: 10px;
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.navegacion {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/design1.jpg");
+  background-size: cover;
+}
+
+.oculto {
+  display: none;
+}
+
+.grupo-nav {
+  position: absolute;
+  top: 95px;
+  right: 5%;
+}
+
+.link-nav a,
+.visitando {
+  display: inline-block;
+  width: 50px;
+  padding: 4px 14px;
+  margin: 0px 3px;
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 3px 3px gray;
+}
+
+.visitando {
+  background-color: green;
+}
+
+.link-nav a {
+  text-decoration: none;
+  background-color: blue;
+}
+
+.aside-logo {
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.img-logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 2px;
+}
+
+.seccion-principal {
+  display: inline-block;
+  width: 50%;
+  height: 10px;
+}
+
+.titulo-seccion {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 390px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.articulo {
+  display: inline;
+  position: relative;
+  top: -50px;
+  left: 200px;
+}
