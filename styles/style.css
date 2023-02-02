@@ -15,11 +15,16 @@ body {
   background-color: aquamarine;
 }
 
+.img-logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 2px;
+}
+
 .titulo-banner {
   display: block;
-  padding: 20px;
+  padding-left: 20px;
   margin: 0;
-  width: 100%;
   height: 300px;
   font-family: Kanit, Arial, Helvetica, sans-serif;
   font-size: xx-large;
@@ -27,74 +32,61 @@ body {
   background-image: url("../images/design1.jpg");
   background-size: cover;
 }
+.seccion-principal {
+  display: flex;
+  flex-direction: row;
+}
 
 .navegacion {
   display: inline-block;
-  position: relative;
-  display: flex;
   background-color: blue;
-  padding-right: 20px;
   margin: 0;
-  width: 120px;
-  height calc(100vh - 50px);
+  margin-right: 20px;
+  min-width: 120px;
+}
+
+.lista-navegacion {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 10px;
+  height: 400px;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-end;
+  list-style-type: none;
 }
-
-.lista-navegacion{
-
-}
-
-/* .link-nav {
-  display: block;
-  padding: 50px;
-} */
 
 .aside-logo {
   display: block;
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 280px;
+  top: 235px;
   right: 5%;
   z-index: 1;
   background-color: white;
   border: 2px double black;
 }
 
-.img-logo {
-  width: 100px;
-  height: 100px;
-  padding-left: 2px;
-}
-
-.seccion-principal {
-  display: flex;
+.seccion-articulo {
 }
 
 .titulo-seccion {
   display: block;
   position: absolute;
   width: 100%;
-  top: 299px;
+  top: 251px;
+  left: 0px;
   text-align: center;
   background-color: black;
   color: white;
 }
 
-.lista-articulos{
-  display: flex;
-  position: relative;
-  top: -300px;
-  left: 200px;
-  flex-direction: column;
+.titulo-descripcion {
+  font-weight: bold;
 }
 
-.articulo {
-  display: inline;
-}
-
-.lista-uso-campo{
+.lista-uso-campo {
   list-style-type: lower-latin;
 }
