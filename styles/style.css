@@ -12,27 +12,44 @@ figure {
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
 }
 
 .titulo-banner {
   display: block;
+  padding: 20px;
+  margin: 0;
   width: 100%;
   height: 300px;
-  padding: 10px;
   font-family: Kanit, Arial, Helvetica, sans-serif;
   font-size: xx-large;
+  text-shadow: 2px 2px 3px #fffc3d;
   background-image: url("../images/design1.jpg");
   background-size: cover;
 }
 
 .navegacion {
   display: inline-block;
+  position: relative;
+  display: flex;
+  background-color: blue;
+  padding-right: 20px;
+  margin: 0;
+  width: 120px;
+  height calc(100vh - 50px);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 
-.link-nav {
+.lista-navegacion{
+
+}
+
+/* .link-nav {
   display: block;
   padding: 50px;
-}
+} */
 
 .aside-logo {
   display: block;
@@ -53,9 +70,7 @@ body {
 }
 
 .seccion-principal {
-  display: inline-block;
-  width: 50%;
-  height: 10px;
+  display: flex;
 }
 
 .titulo-seccion {
@@ -68,9 +83,18 @@ body {
   color: white;
 }
 
-.articulo {
-  display: inline;
+.lista-articulos{
+  display: flex;
   position: relative;
   top: -300px;
   left: 200px;
+  flex-direction: column;
+}
+
+.articulo {
+  display: inline;
+}
+
+.lista-uso-campo{
+  list-style-type: lower-latin;
 }
