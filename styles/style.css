@@ -72,6 +72,10 @@ body {
 .seccion-articulo {
 }
 
+.sangria {
+  text-indent: 1.2em;
+}
+
 .titulo-seccion {
   display: block;
   position: absolute;
@@ -83,10 +87,47 @@ body {
   color: white;
 }
 
+.advertencia{
+  text-align: center;
+}
+
 .titulo-descripcion {
   font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.texto-descripcion {
+  margin: 0px;
+}
+
+.lista-regulacion {
+}
+
+.lista-regulacion::marker {
+  font-weight: bold;
+}
+
+.titulo-regulacion {
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.titulo-regulacion-lista {
+  font-weight: bold;
+}
+
+.texto-regulacion {
+  margin-left: 0px;
 }
 
 .lista-uso-campo {
   list-style-type: lower-latin;
+  margin-left: -64px;
+}
+
+.lista-play {
+  list-style-type: circle;
+  list-style-position: inside;
 }
