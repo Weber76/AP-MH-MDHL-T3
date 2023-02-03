@@ -35,6 +35,7 @@ body {
 .seccion-principal {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .navegacion {
@@ -70,6 +71,7 @@ body {
 }
 
 .seccion-articulo {
+  width: 100%;
 }
 
 .sangria {
@@ -87,7 +89,7 @@ body {
   color: white;
 }
 
-.advertencia{
+.advertencia {
   text-align: center;
 }
 
@@ -130,4 +132,52 @@ body {
 .lista-play {
   list-style-type: circle;
   list-style-position: inside;
+}
+
+.texto-info-linea-1 {
+  font-style: italic;
+  font-size: 120%;
+}
+
+.texto-info-linea-2 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.encabezado-fecha {
+  padding: 0px 20px;
+}
+
+.tabla-fecha {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.encabezado-teams {
+  padding-right: 60px;
+}
+
+.encabezado-location {
+  text-align: left;
+  padding-right: 100px;
+}
+
+.encabezado-times {
+  text-align: left;
+}
+
+.texto-pie {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.texto-pie-phone {
+  display: flex;
+  float: left;
+}
+
+.texto-pie-email {
+  display: flex;
+  float: right;
+  margin-right: 8px;
 }
