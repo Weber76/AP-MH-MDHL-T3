@@ -12,7 +12,7 @@ figure {
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
 }
 
 .img-logo {
@@ -40,10 +40,11 @@ body {
 
 .navegacion {
   display: inline-block;
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   margin: 0;
   margin-right: 20px;
   min-width: 120px;
+  min-height: calc(100vh - 300px);
 }
 
 .lista-navegacion {
