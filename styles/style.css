@@ -104,9 +104,6 @@ body {
   margin: 0px;
 }
 
-.lista-regulacion {
-}
-
 .lista-regulacion::marker {
   font-weight: bold;
 }
